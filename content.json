@@ -1,0 +1,58 @@
+{
+    "Crafting": {
+        "Category": {
+            "Tools": {
+                "X TOOL": {
+                    "Ingridients": {
+                        "X": {
+                            "IMG": "IMG"
+                        }
+                    },
+                    "Time": {
+
+                    }
+                }
+            },
+            "Weapons": {
+                "Ingridients": {
+
+                },
+                "Time": {
+                    
+                }
+            },
+            "Armours": {
+                "Ingridients": {
+
+                },
+                "Time": {
+                    
+                }
+            },
+            "Foods": {
+                "Ingridients": {
+
+                },
+                "Time": {
+                    
+                }
+            },
+            "Structures": {
+                "Ingridients": {
+
+                },
+                "Time": {
+                    
+                }
+            },
+            "Vehicles": {
+                "Ingridients": {
+
+                },
+                "Time": {
+                    
+                }
+            }
+        }
+    }
+}
