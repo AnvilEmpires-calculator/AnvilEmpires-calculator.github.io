@@ -38,14 +38,14 @@
     </header>
     <div id="Calculator">
       <div id="Tabs">
-        <button class="Tab-Links" onclick="ChangeTabs('Tools')">Tools</button>
-        <button class="Tab-Links" onclick="ChangeTabs('Weapons')">Weapons</button>
-        <button class="Tab-Links" onclick="ChangeTabs('Armour')">Armours</button>
-        <button class="Tab-Links" onclick="ChangeTabs('Foods')">Foods</button>
-        <button class="Tab-Links" onclick="ChangeTabs('Structures')">Structures</button>
-        <button class="Tab-Links" onclick="ChangeTabs('Vehicles')">Vehicles</button>
+        <button class="Tab-Links" @click="ChangeTab('Foods')">Foods</button>
+        <button class="Tab-Links" @click="ChangeTab('Tools')">Tools</button>
+        <button class="Tab-Links" @click="ChangeTab('Weapons')">Weapons</button>
+        <button class="Tab-Links" @click="ChangeTab('Armour')">Armours</button>
+        <button class="Tab-Links" @click="ChangeTab('Structures')">Structures</button>
+        <button class="Tab-Links" @click="ChangeTab('Vehicles')">Vehicles</button>
       </div>
-      <div id="Contents">
+      <div id="Content">
         
       </div>
     </div>

@@ -1,284 +1,264 @@
 {
-    "Foods": {
-        "Food": [
+    "Bloodberry Field Bar": {
+        "Wiki": "https://anvilempires.wiki.gg/wiki/Bloodberry_Field_Bar",
+        "Desc": "A basic ration commonly made by weary travellers.",
+        "Recipe": [
             {
-                "Name": "Bloodberry Field Bar",
-                "Wiki-Link": "https://anvilempires.wiki.gg/wiki/Bloodberry_Field_Bar",
-                "Description": "A basic ration commonly made by weary travellers.",
-                "Recipe": [
-                    {
-                        "Yield": 1,
-                        "Crafting-Station": ["Firepit", "Oven"],
-                        "Items": [
-                            {"Item": "Berries", "Quantity": 1}
-                        ]
-                    }
-                ]
-            },
-            {
-                "Name": "Boiled Cabbage",
-                "Wiki-Link": "https://anvilempires.wiki.gg/wiki/Boiled_Cabbage",
-                "Description": "A simple dish of boiled cabbage. High Satiation.",
-                "Recipe": [
-                    {
-                        "Yield": 1,
-                        "Crafting-Station": ["Hearth"],
-                        "Items": [
-                            {"Item": "Cabbage", "Quantity": 2},
-                            {"Item": "Water Bucket", "Quantity": 1}
-                        ]
-                    }
-                ]
-            },
-            {
-                "Name": "Boiled Eggs",
-                "Wiki-Link": "https://anvilempires.wiki.gg/wiki/Boiled_Eggs",
-                "Description": "Eggs boiled in water. Low Satiation.",
-                "Recipe": [
-                    {
-                        "Yield": 1,
-                        "Crafting-Station": ["Hearth"],
-                        "Items": [
-                            {"Item": "Chicken Egg", "Quantity": 2},
-                            {"Item": "Water Bucket", "Quantity": 1}
-                        ]
-                    }
-                ]
-            },
-            {
-                "Name": "Egg Tarte",
-                "Wiki-Link": "https://anvilempires.wiki.gg/wiki/Egg_Tarte",
-                "Description": "A thick tarte of eggs and cabbage with a flaky crust. Low Satiation.",
-                "Recipe": [
-                    {
-                        "Yield": 1,
-                        "Crafting-Station": ["Oven"],
-                        "Items": [
-                            {"Item": "Chicken Egg", "Quantity": 2},
-                            {"Item": "Flour", "Quantity": 1},
-                            {"Item": "Cabbage", "Quantity": 1}
-                        ]
-                    }
-                ]
-            },
-            {
-                "Name": "Grilled Whitefish",
-                "Wiki-Link": "https://anvilempires.wiki.gg/wiki/Grilled_Whitefish",
-                "Description": "White-fleshed fish grilled on a fire. High Satiation.",
-                "Recipe": [
-                    {
-                        "Yield": 1,
-                        "Crafting-Station": ["Oven"],
-                        "Items": [
-                            {"Item": "Wights Island Dace", "Quantity": 1}
-                        ]
-                    },
-                    {
-                        "Yield": 2,
-                        "Crafting-Station": ["Oven"],
-                        "Items": [
-                            {"Item": "Bludgeon", "Quantity": 1}
-                        ]
-                    },
-                    {
-                        "Yield": 3,
-                        "Crafting-Station": ["Oven"],
-                        "Items": [
-                            {"Item": "Astrian Trout", "Quantity": 1}
-                        ]
-                    }
-                ]
-            },
-            {
-                "Name": "Lost Bread",
-                "Wiki-Link": "https://anvilempires.wiki.gg/wiki/Lost_Bread",
-                "Description": "Bread soaked in eggs then fried. Moderate Satiation.",
-                "Recipe": [
-                    {
-                        "Yield": 1,
-                        "Crafting-Station": ["Oven"],
-                        "Items": [
-                            {"Item": "Trencher Bread", "Quantity": 1},
-                            {"Item": "Chicken Egg", "Quantity": 1}
-                        ]
-                    }
-                ]
-            },
-            {
-                "Name": "Mead",
-                "Wiki-Link": "https://anvilempires.wiki.gg/wiki/Mead",
-                "Description": "",
-                "Recipe": [
-                    {
-                        "Yield": 1,
-                        "Crafting-Station": ["Tavern"],
-                        "Items": [
-                            {"Item": "Silver", "Quantity": 15}
-                        ]
-                    }
-                ]
-            },
-            {
-                "Name": "Pemmikan",
-                "Wiki-Link": "https://anvilempires.wiki.gg/wiki/Pemmikan",
-                "Description": "A simple ration of small game and berries. Low Satiation.",
-                "Recipe": [
-                    {
-                        "Yield": 1,
-                        "Crafting-Station": ["Hearth"],
-                        "Items": [
-                            {"Item": "Common Meat", "Quantity": 1},
-                            {"Item": "Berries", "Quantity": 2}
-                        ]
-                    }
-                ]
-            },
-            {
-                "Name": "Plain Alemette",
-                "Wiki-Link": "https://anvilempires.wiki.gg/wiki/Plain_Alemette",
-                "Description": "Eggs cooked thin and folded, a common Ankou dish. Low Satiation.",
-                "Recipe": [
-                    {
-                        "Yield": 1,
-                        "Crafting-Station": ["Oven"],
-                        "Items": [
-                            {"Item": "Chicken Egg", "Quantity": 2}
-                        ]
-                    }
-                ]
-            },
-            {
-                "Name": "Roasted Game",
-                "Wiki-Link": "https://anvilempires.wiki.gg/wiki/Roasted_Game",
-                "Description": "A reasonable portion of flame-roasted meat. High Satiation.",
-                "Recipe": [
-                    {
-                        "Yield": 1,
-                        "Crafting-Station": ["Firepit"],
-                        "Items": [
-                            {"Item": "Deer Meat", "Quantity": 1}
-                        ]
-                    },
-                    {
-                        "Yield": 1,
-                        "Crafting-Station": ["Hearth"],
-                        "Items": [
-                            {"Item": "Deer Meat", "Quantity": 1}
-                        ]
-                    }
-                ]
-            },
-            {
-                "Name": "Roasted Hog’s Leg",
-                "Wiki-Link": "https://anvilempires.wiki.gg/wiki/Roasted_Hog%E2%80%99s_Leg",
-                "Description": "Flame-roasted leg of a hog. High Satiation.",
-                "Recipe": [
-                    {
-                        "Yield": 1,
-                        "Crafting-Station": ["Firepit"],
-                        "Items": [
-                            {"Item": "Boar Meat", "Quantity": 1}
-                        ]
-                    },
-                    {
-                        "Yield": 1,
-                        "Crafting-Station": ["Hearth"],
-                        "Items": [
-                            {"Item": "Boar Meat", "Quantity": 1}
-                        ]
-                    }
-                ]
-            },
-            {
-                "Name": "Small Roasted Game",
-                "Wiki-Link": "https://anvilempires.wiki.gg/wiki/Small_Roasted_Game",
-                "Description": "A modest portion of flame-roasted meat.",
-                "Recipe": [
-                    {
-                        "Yield": 1,
-                        "Crafting-Station": ["Firepit"],
-                        "Items": [
-                            {"Item": "Common Meat", "Quantity": 1}
-                        ]
-                    },
-                    {
-                        "Yield": 1,
-                        "Crafting-Station": ["Oven"],
-                        "Items": [
-                            {"Item": "Common Meat", "Quantity": 1}
-                        ]
-                    }
-                ]
-            },
-            {
-                "Name": "Trencher Bread",
-                "Wiki-Link": "https://anvilempires.wiki.gg/wiki/Trencher_Bread",
-                "Description": "Plain round bread. High Satiation.",
-                "Recipe": [
-                    {
-                        "Yield": 1,
-                        "Crafting-Station": ["Oven"],
-                        "Items": [
-                            {"Item": "Flour", "Quantity": 2},
-                            {"Item": "Water Bucket", "Quantity": 1}
-                        ]
-                    },
-                    {
-                        "Yield": 1,
-                        "Crafting-Station": ["Tavern"],
-                        "Items": [
-                            {"Item": "Silver", "Quantity": 30}
-                        ]
-                    }
-                ]
-            },
-            {
-                "Name": "Water Pie",
-                "Wiki-Link": "https://anvilempires.wiki.gg/wiki/Water_Pie",
-                "Description": "A simple pie with cabbage and meat. High Satiation.",
-                "Recipe": [
-                    {
-                        "Yield": 1,
-                        "Crafting-Station": ["Oven"],
-                        "Items": [
-                            {"Item": "Flour", "Quantity": 2},
-                            {"Item": "Deer Meat", "Quantity": 2},
-                            {"Item": "Boiled Cabbage", "Quantity": 2}
-                        ]
-                    },
-                    {
-                        "Yield": 1,
-                        "Crafting-Station": ["Oven"],
-                        "Items": [
-                            {"Item": "Flour", "Quantity": 2},
-                            {"Item": "Boar Meat", "Quantity": 2},
-                            {"Item": "Boiled Cabbage", "Quantity": 2}
-                        ]
-                    },
-                    {
-                        "Yield": 1,
-                        "Crafting-Station": ["Tavern"],
-                        "Items": [
-                            {"Item": "Silver", "Quantity": 45}
-                        ]
-                    }
+                "Yield": 1,
+                "Station": ["Firepit", "Oven"],
+                "Items": [
+                    {"Item": "Berries", "Quantity": 1}
                 ]
             }
         ]
     },
-    "Tools": {
 
+    "Boiled Cabbage": {
+        "Wiki": "https://anvilempires.wiki.gg/wiki/Boiled_Cabbage",
+        "Desc": "A simple dish of boiled cabbage. High Satiation.",
+        "Recipe": [
+            {
+                "Yield": 1,
+                "Station": ["Hearth"],
+                "Items": [
+                    {"Item": "Cabbage", "Quantity": 2},
+                    {"Item": "Water Bucket", "Quantity": 1}
+                ]
+            }
+        ]
     },
-    "Weapons": {
 
+    "Boiled Eggs": {
+        "Wiki": "https://anvilempires.wiki.gg/wiki/Boiled_Eggs",
+        "Desc": "Eggs boiled in water. Low Satiation.",
+        "Recipe": [
+            {
+                "Yield": 1,
+                "Station": ["Hearth"],
+                "Items": [
+                    {"Item": "Chicken Egg", "Quantity": 2},
+                    {"Item": "Water Bucket", "Quantity": 1}
+                ]
+            }
+        ]
     },
-    "Armours": {
 
+    "Egg Tarte": {
+        "Wiki": "https://anvilempires.wiki.gg/wiki/Egg_Tarte",
+        "Desc": "A thick tarte of eggs and cabbage with a flaky crust. Low Satiation.",
+        "Recipe": [
+            {
+                "Yield": 1,
+                "Station": ["Oven"],
+                "Items": [
+                    {"Item": "Chicken Egg", "Quantity": 2},
+                    {"Item": "Flour", "Quantity": 1},
+                    {"Item": "Cabbage", "Quantity": 1}
+                ]
+            }
+        ]
     },
-    "Structures": {
 
+    "Grilled Whitefish": {
+        "Wiki": "https://anvilempires.wiki.gg/wiki/Grilled_Whitefish",
+        "Desc": "White-fleshed fish grilled on a fire. High Satiation.",
+        "Recipe": [
+            {
+                "Yield": 1,
+                "Station": ["Oven"],
+                "Items": [
+                    {"Item": "Wights Island Dace", "Quantity": 1}
+                ]
+            },
+            {
+                "Yield": 2,
+                "Station": ["Oven"],
+                "Items": [
+                    {"Item": "Bludgeon", "Quantity": 1}
+                ]
+            },
+            {
+                "Yield": 3,
+                "Station": ["Oven"],
+                "Items": [
+                    {"Item": "Astrian Trout", "Quantity": 1}
+                ]
+            }
+        ]
     },
-    "Vehicles": {
 
+    "Lost Bread": {
+        "Wiki": "https://anvilempires.wiki.gg/wiki/Lost_Bread",
+        "Desc": "Bread soaked in eggs then fried. Moderate Satiation.",
+        "Recipe": [
+            {
+                "Yield": 1,
+                "Station": ["Oven"],
+                "Items": [
+                    {"Item": "Trencher Bread", "Quantity": 1},
+                    {"Item": "Chicken Egg", "Quantity": 1}
+                ]
+            }
+        ]
+    },
+
+    "Mead": {
+        "Wiki": "https://anvilempires.wiki.gg/wiki/Mead",
+        "Desc": "",
+        "Recipe": [
+            {
+                "Yield": 1,
+                "Station": ["Tavern"],
+                "Items": [
+                    {"Item": "Silver", "Quantity": 15}
+                ]
+            }
+        ]
+    },
+
+    "Pemmikan": {
+        "Wiki": "https://anvilempires.wiki.gg/wiki/Pemmikan",
+        "Desc": "A simple ration of small game and berries. Low Satiation.",
+        "Recipe": [
+            {
+                "Yield": 1,
+                "Station": ["Hearth"],
+                "Items": [
+                    {"Item": "Common Meat", "Quantity": 1},
+                    {"Item": "Berries", "Quantity": 2}
+                ]
+            }
+        ]
+    },
+
+    "Plain Alemette": {
+        "Wiki": "https://anvilempires.wiki.gg/wiki/Plain_Alemette",
+        "Desc": "Eggs cooked thin and folded, a common Ankou dish. Low Satiation.",
+        "Recipe": [
+            {
+                "Yield": 1,
+                "Station": ["Oven"],
+                "Items": [
+                    {"Item": "Chicken Egg", "Quantity": 2}
+                ]
+            }
+        ]
+    },
+
+    "Roasted Game": {
+        "Wiki": "https://anvilempires.wiki.gg/wiki/Roasted_Game",
+        "Desc": "A reasonable portion of flame-roasted meat. High Satiation.",
+        "Recipe": [
+            {
+                "Yield": 1,
+                "Station": ["Firepit"],
+                "Items": [
+                    {"Item": "Deer Meat", "Quantity": 1}
+                ]
+            },
+            {
+                "Yield": 1,
+                "Station": ["Hearth"],
+                "Items": [
+                    {"Item": "Deer Meat", "Quantity": 1}
+                ]
+            }
+        ]
+    },
+
+    "Roasted Hog’s Leg": {
+        "Wiki": "https://anvilempires.wiki.gg/wiki/Roasted_Hog%E2%80%99s_Leg",
+        "Desc": "Flame-roasted leg of a hog. High Satiation.",
+        "Recipe": [
+            {
+                "Yield": 1,
+                "Station": ["Firepit"],
+                "Items": [
+                    {"Item": "Boar Meat", "Quantity": 1}
+                ]
+            },
+            {
+                "Yield": 1,
+                "Station": ["Hearth"],
+                "Items": [
+                    {"Item": "Boar Meat", "Quantity": 1}
+                ]
+            }
+        ]
+    },
+
+    "Small Roasted Game": {
+        "Wiki": "https://anvilempires.wiki.gg/wiki/Small_Roasted_Game",
+        "Desc": "A modest portion of flame-roasted meat.",
+        "Recipe": [
+            {
+                "Yield": 1,
+                "Station": ["Firepit"],
+                "Items": [
+                    {"Item": "Common Meat", "Quantity": 1}
+                ]
+            },
+            {
+                "Yield": 1,
+                "Station": ["Oven"],
+                "Items": [
+                    {"Item": "Common Meat", "Quantity": 1}
+                ]
+            }
+        ]
+    },
+
+    "Trencher Bread": {
+        "Wiki": "https://anvilempires.wiki.gg/wiki/Trencher_Bread",
+        "Desc": "Plain round bread. High Satiation.",
+        "Recipe": [
+            {
+                "Yield": 1,
+                "Station": ["Oven"],
+                "Items": [
+                    {"Item": "Flour", "Quantity": 2},
+                    {"Item": "Water Bucket", "Quantity": 1}
+                ]
+            },
+            {
+                "Yield": 1,
+                "Station": ["Tavern"],
+                "Items": [
+                    {"Item": "Silver", "Quantity": 30}
+                ]
+            }
+        ]
+    },
+
+    "Water Pie": {
+        "Wiki": "https://anvilempires.wiki.gg/wiki/Water_Pie",
+        "Desc": "A simple pie with cabbage and meat. High Satiation.",
+        "Recipe": [
+            {
+                "Yield": 1,
+                "Station": ["Oven"],
+                "Items": [
+                    {"Item": "Flour", "Quantity": 2},
+                    {"Item": "Deer Meat", "Quantity": 2},
+                    {"Item": "Boiled Cabbage", "Quantity": 2}
+                ]
+            },
+            {
+                "Yield": 1,
+                "Station": ["Oven"],
+                "Items": [
+                    {"Item": "Flour", "Quantity": 2},
+                    {"Item": "Boar Meat", "Quantity": 2},
+                    {"Item": "Boiled Cabbage", "Quantity": 2}
+                ]
+            },
+            {
+                "Yield": 1,
+                "Station": ["Tavern"],
+                "Items": [
+                    {"Item": "Silver", "Quantity": 45}
+                ]
+            }
+        ]
     }
 }

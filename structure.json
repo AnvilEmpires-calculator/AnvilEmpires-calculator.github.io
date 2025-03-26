@@ -1,0 +1,33 @@
+{
+    "Foods": {
+        "Food": ["Bloodberry Field Bar", "Boiled Cabbage", "Boiled Eggs", "Egg Tarte", "Grilled Whitefish", "Lost Bread", "Mead", "Pemmikan", "Plain Alemette", "Roasted Game", "Roasted Hog’s Leg", "Small Roasted Game", "Trencher Bread", "Water Pie"]
+    },
+    
+    "Tools": {
+
+    },
+
+    "Weapons": {
+
+    },
+
+    "Armours": {
+
+    },
+
+    "Structures": {
+
+    },
+
+    "Vehicles": {
+
+    },
+
+    "Resources": {
+        "World": [],
+        "Raw": [],
+        "Manufactured": [],
+        "Animal": [],
+        "Plant": []
+    }
+}
